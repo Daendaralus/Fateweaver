@@ -17,8 +17,13 @@
     }
   ],
   "relationships": {
-    "systems": [],
-    "requires": []
+    "requires": [
+			{
+				"id": "orcnog-card-viewer",
+				"type": "module",
+				"manifest": "https://github.com/orcnog/orcnog-card-viewer/releases/latest/download/module.json"
+			}
+		]
   },
   "esmodules": [
     "scripts/module.js"
