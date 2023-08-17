@@ -25,6 +25,15 @@
 			}
 		]
   },
+  "macros": [
+    {
+      "name": "Change ones Fate",
+      "type": "script",
+      "img": "icons/macro-icon.svg", // Optional: Provide an image for the macro
+      "command": "./macros/macro.js", // The path to your macro's script
+      "flags": {}
+    }
+  ],
   "esmodules": [
     "scripts/module.js"
   ],
