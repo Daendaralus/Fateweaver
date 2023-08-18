@@ -30,7 +30,7 @@
       "name": "Change one's Fate",
       "type": "script",
       "img": "icons/macro-icon.svg", // Optional: Provide an image for the macro
-      "command": "./macros/macro.js", // The path to your macro's script
+      "command": "macros/macro.js", // The path to your macro's script
       "flags": {}
     }
   ],
