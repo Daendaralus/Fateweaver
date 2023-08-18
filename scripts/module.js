@@ -41,3 +41,10 @@ function changeFate(handId, stackId) {
     // Return the card to its stack
     card.recall();
 };
+
+const hideCardName = async (app, html, data) => {
+    if (!game.user.isGM) {
+        html.find(".cards .card-name").text("");
+    } 
+};
+Hooks.on('renderCardsHand', hideCardName);
